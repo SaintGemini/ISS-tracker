@@ -1,9 +1,7 @@
 import json
-import turtle
 import urllib.request
 from threading import *
 import time
-
 
 astronauts = 'http://api.open-notify.org/astros.json'
 response = urllib.request.urlopen(astronauts)
@@ -27,15 +25,3 @@ def repeatISS():
 
 t = Timer(5.0, repeatISS)
 t.start()
-
-
-
-
-
-
-#image = "worldmap.jpg"
-
-#screen = turtle.Screen()
-#screen.setup(720, 360)
-#screen.setworldcoordinates(-180, -90, 180, 90)
-#screen.bgpic("space.jpg")
