@@ -27,14 +27,3 @@ def repeatISS():
 t = Timer(5.0, repeatISS)
 t.start()
 
-
-
-
-
-
-#image = "worldmap.jpg"
-
-#screen = turtle.Screen()
-#screen.setup(720, 360)
-#screen.setworldcoordinates(-180, -90, 180, 90)
-#screen.bgpic("space.jpg")
