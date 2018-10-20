@@ -3,7 +3,6 @@ import urllib.request
 from threading import *
 import time
 
-
 astronauts = 'http://api.open-notify.org/astros.json'
 response = urllib.request.urlopen(astronauts)
 result = json.loads(response.read())
@@ -26,4 +25,3 @@ def repeatISS():
 
 t = Timer(5.0, repeatISS)
 t.start()
-
