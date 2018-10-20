@@ -1,5 +1,4 @@
 import json
-import turtle
 import urllib.request
 from threading import *
 import time
