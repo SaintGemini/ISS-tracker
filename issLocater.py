@@ -1,7 +1,9 @@
 import json
+import turtle
 import urllib.request
 from threading import *
 import time
+
 
 astronauts = 'http://api.open-notify.org/astros.json'
 response = urllib.request.urlopen(astronauts)
